@@ -1,0 +1,1 @@
+Downloads moved to [Github](https://github.com/dompdf/dompdf/releases).

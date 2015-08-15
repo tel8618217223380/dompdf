@@ -1,0 +1,1 @@
+The issue tracker is now hosted on [GitHub](https://github.com/dompdf/dompdf/issues). Look for any existing issues or post new issues and feature requests there.

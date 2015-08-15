@@ -1,0 +1,5 @@
+dompdf is an HTML to PDF converter. At its heart, dompdf is (mostly) CSS2.1 compliant HTML layout and rendering engine written in PHP. It is a style-driven renderer: it will download and read external stylesheets, inline style tags, and the style attributes of individual HTML elements. It also supports most presentational HTML attributes.
+
+PDF rendering is currently provided either by PDFLib (http://www.pdflib.com) or by a bundled version the R&OS CPDF class written by Wayne Munro (http://www.ros.co.nz/pdf). (Some performance related changes have been made to the R&OS class, however). In order to use PDFLib with dompdf, the PDFLib PECL extension is required. Using PDFLib improves performance and reduces the memory requirements of dompdf somewhat, while the R&OS CPDF class, though slightly slower, eliminates any dependencies on external PDF libraries.
+
+Please note that dompdf works only with PHP 5. There are no plans for a PHP 4 port. If your web host does not offer PHP 5, I suggest either pestering them, or setting up your own PHP 5 box and using it to run dompdf. Your scripts on your web host can redirect PDF requests to your PHP 5 box.
